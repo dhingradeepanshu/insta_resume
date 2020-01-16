@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(94,197,192,0.5);
+}
+
+.container{
+  max-width: 80rem;
+  margin: 8rem auto;
+  background-color: #CED4D4;
+  min-height: 120rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  height: 17rem;
+  background-color: #5EC5C0;
+  position: relative;
+}
+
+.image{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+}
+
+.boy{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.content{
+  height: 103rem;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+  font-size: 4rem;
+  color: #fff;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.7rem;
+  color: #fff;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-weight: 400;  
+}
+
+h6{
+  font-size: 1.7rem;
+  color: #fff;
+  padding-top: 2rem;
+  padding-left: 2rem;
+    font-weight: 400;
+
+}
+
+h2{
+  padding-left: 2rem;
+  padding-top: 0.8rem;
+}
+
+ul li{
+  padding-left: 2rem;
+  padding-top: 0.7rem;
+  padding-right: 2rem;
+}
+
+.row1{
+  height: 103rem;
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row2{
+  height: 103rem;
+  width: 35rem;
+  background-color: #BDC7C9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxLeft{
+  width: 40rem;
+  background-color: #BDC7C9;
+}
+
+.boxRight{
+  width: 31rem;
+  background-color: #CED4D4;
+  height: 30rem;
+}
+
+.big{
+  height: 35rem;
+}
+
+.one{
+  height: 38rem;
+}
+
+.two{
+  height: 30rem;
+}
+
+.three{
+  height: 22rem;
+}

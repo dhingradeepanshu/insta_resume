@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(237,85,53,0.9);
+}
+
+.container{
+  max-width: 80rem;
+  margin: 8rem auto;
+  background-color: #fff;
+  min-height: 134rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.middle{
+  font-size: 1.5rem;
+}
+.top, .bottom{
+  height: 25rem;
+  width: 80rem;
+}
+
+.middle{
+  height: 84rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  color: #555555;
+}
+
+.row1{
+  height: 38rem;
+  width: 80rem;
+  display: flex;
+}
+
+.row2,.row3{
+  height: 23rem;
+  width: 80rem;
+  display: flex;
+}
+
+.one,.two{
+    
+    width: 50%;
+    height: 100%;
+}
+
+.image1,.image2{
+  width: 100%;
+  height: 100%;
+}
+
+.image1{
+  transform: translateY(-3rem);
+}
+
+.image2{
+  transform: translateY(3rem);
+}
+
+.image{
+  height: 14rem;
+  width: 14rem;
+  position: absolute;
+  top: 5%;
+  right: 7%;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.boy{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+ul{
+    list-style: none;
+}
+h2{
+  padding-left: 2rem;
+  padding-top: 0.8rem;
+}
+.row1 .one h2, .row2 .two h2{
+  color: rgb(237,85,53);
+}
+.row1 .two h2, .row3 .one h2{
+  color: #512e4e;
+}
+.row2 .one h2, .row3 .two h2{
+  color: #cf2c3b;
+}
+ul li{
+  padding-left: 2rem;
+  padding-top: 0.7rem;
+  padding-right: 2rem;
+}

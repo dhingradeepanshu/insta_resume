@@ -1,0 +1,365 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+  position: absolute;
+  top: 12%;
+  left: 27%;
+  height: 85vh;
+  width: 45vw;
+  background-color: #CBE9E9;
+  border-radius: 2rem;
+}
+
+.cardRight1,.cardRight2,.cardRight3{
+  position: absolute;
+  top: 12%;
+  left: 27%;
+  transform: scale(0.4) translate(200%,8%);
+  height: 85vh;
+  width: 45vw;
+  background-color: #CBE9E9;
+  border-radius: 2rem;
+  opacity: 0;
+}
+
+.contentMain{
+  position: relative;
+  height: 85vh;
+  width: 45vw;
+}
+
+a:link,a:active{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.next,.next1,.next2,.next3{
+  position: absolute;
+  top: 91%;
+  left: 81.2%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  border: 1.3px solid #000;
+  border-radius: 2rem;
+  color: #000;
+}
+
+.save,.submit{
+  position: absolute;
+  top: 91%;
+  left: 5%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  border: 1.3px solid #000;
+  border-radius: 2rem;
+  color: #000;
+  background:transparent;
+  outline: none;
+  cursor: pointer;
+}
+.submit{
+  left:41.5%;
+}
+.instruction{
+  position: absolute;
+  bottom: 10%;
+  left:5%;
+  font-size: 120%;
+  color: #888888;
+}
+
+.back{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 5vh;
+  width: 3vw;
+}
+
+.heading{
+  position: absolute;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.progressBar{
+  position: absolute;
+  top: 7%;
+  left: 39%;
+  height: 1.5vh;
+  width: 20vw;
+  background-color: #fff;
+  border: 1px solid #F4EFFF;
+  border-radius: 2rem;
+}
+
+.color{
+  height: 1.5vh;
+  width: 0vw;
+  border-radius: 2rem;
+}
+
+.stats{
+  position: absolute;
+  top: 6%;
+  left: 35%;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.field{
+  position: absolute;
+  top: 18%;
+  left: 48%;
+  width: 45%;
+  height: 5%;
+  outline: none;
+}
+
+.dataField{
+  flex: 0 0 18%;
+}
+
+.about{
+  position: absolute;
+  top: 67%;
+  left: 4%;
+  width: 89%;
+}
+
+.description{
+  position: absolute;
+  top: 18%;
+  left: 4%;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box1 {
+  position: absolute;
+  top: 12%;
+  left: 12.5%;
+  height: 36%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.box2 {
+  position: absolute;
+  top: 58%;
+  left: 12.5%;
+  height: 30%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two{
+  top: 27%;
+}
+
+.three{
+  top: 36%;
+}
+
+.four{
+  top: 45%;
+}
+
+
+.five{
+  top: 53.5%;
+}
+.ema{
+  font-size: 130%;
+  font-weight: bold;
+  top: 54.5%;
+}
+.six{
+  top: 61%;
+}
+
+.e2{
+  top: 25%;
+}
+
+.e3{
+  top: 32%;
+}
+
+.h1{
+  top: 42%;
+}
+
+.h2{
+  top: 49%;
+}
+
+.h3{
+  top: 56%;
+}
+
+.p1{
+  top: 66%;
+}
+
+.p2{
+  top: 73%;
+}
+
+.p3{
+  top: 80%;
+}
+
+.num{
+  left: 59%;
+  width:34%;
+  height: 3.1rem;
+  outline: none;
+}
+
+#one{
+  top: 4%;
+  left: 21%;
+}
+
+#two{
+  top: 4%;
+  left: 18%;
+}
+
+#three{
+  top: 4%;
+  left: 39%;
+}
+
+#four{
+  top: 4%;
+  left: 22%;
+}
+
+#five{
+  top: 50%;
+  left: 32%;
+}
+
+#six{
+  top: 50%;
+  left: 35%;
+}
+
+@keyframes swoopIn {
+  100%{
+    opacity: 1;
+    transform: scale(1) translate(0%,0%);
+  }
+}
+
+@keyframes swoopOut {
+  0.6%{
+    opacity: 1;
+    transform: scale(1) translate(0,0);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(0.4) translate(-200%,8%);
+  }
+}
+
+@keyframes swoopOutone {
+  100%{
+    opacity: 0;
+    transform: scale(0.4) translate(-200%,8%);
+  }
+}
+
+@keyframes progress33 {
+  100%{
+    width: 6.5vw;
+    background-color: #A5FFA0;
+  }
+}
+
+@keyframes progress66 {
+  0.5%{
+    width: 6.5vw;
+    background-color: #A5FFA0;
+  }
+  100%{
+    width: 13vw;
+    background-color: #A5FFA0;
+  }
+}
+
+@keyframes progress100 {
+  0.5%{
+    width: 13vw;
+    background-color: #A5FFA0;
+  }
+  100%{
+    width: 20vw;
+    background-color: #A5FFA0;
+  }
+}
+.flag_div{
+  box-sizing: border-box;
+  background:#FFF;
+  width:64px;
+  height: 3.1rem;
+  font-size: 140%;
+  padding: 1.2%;
+  position: absolute;
+  top:45%;
+  left: 48%;
+  border: 1px solid #888888;
+}
+.fail,.success{
+  font-weight: bold;
+  font-size: 130%;
+  color: #ff0000;
+  text-align: center;
+  background-color: rgba(242,160,160,0.7);
+  margin:0 auto 1% auto;
+  width:50%;
+  border-radius: 30px;
+  padding: 0.85%;
+  position: absolute;
+  bottom:12px;
+  left: 150px;
+}
+.success{
+  color: rgb(0,100,0);
+  background-color: rgba(50,230,50,0.3);
+}
+
+.ncard{
+  left: 81.2%;
+}

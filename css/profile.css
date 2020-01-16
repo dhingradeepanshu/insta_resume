@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  height: 63vh;
+  width: 40vw;
+  background-color: #CBE9E9;
+  border-radius: 2rem;
+  transform: translate(25%,33%);
+}
+
+.dp {
+  position: absolute;
+  top: 3%;
+  left: 35%;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+}
+.dp img{
+  width:100%;
+  border-radius: 50%;
+   height: 14rem;
+  width: 14rem;
+}
+.labels{
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.one{
+  top: 55%;
+}
+
+.two{
+  top: 65%;
+}
+
+.three{
+  top: 75%;
+  font-weight: bold;
+}
+
+.four{
+  top: 20%;
+}
+
+.five{
+  top: 35%;
+}
+
+.six{
+  top: 50%;
+}
+
+.seven{
+  left: 8%;
+  top: 65%;
+}
+#cpass #showPassword{
+  position: absolute;
+  top: 62.5%;
+  left: 3%;
+}
+#cpass .save{
+  position: absolute;
+  top: 75%;
+  left: 80%;
+}
+a:link,a:visited{
+  text-decoration: none;
+}
+
+.keyword{
+  position: absolute;
+  left:105%;
+  top:-6px;
+}
+
+.save{
+  background-color: #CBE9E9;
+  color: black;
+  position: absolute;
+  top: 85%;
+  left: 80%;
+  padding: 1rem 2rem;
+  border: 1.3px solid black;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  outline: none;
+  cursor: pointer;
+}
+input{
+  outline: none;
+}
+#name{
+  position: absolute;
+  top: 43%;
+  left: 53%;
+  width: 45%;
+  height: 7%;
+  border-radius: 5px;
+}
+
+#prevPass{
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#newPass{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#newPassConf{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+.back{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 5vh;
+  width: 3vw;
+}
+
+.mainHeading{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  position: absolute;
+  top: 25%;
+  left: 53%;
+  color: #373B44;
+}
+
+.steps{
+  position: absolute;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  top: 40%;
+  left: 53%;
+  color: #373B44;
+}
+
+.tw {
+  top: 45%;
+}
+
+.th{
+  top: 50%;
+}
+
+.fo{
+  top: 55%;
+}
+.data{
+  position: absolute;
+  top:54%;
+  font-size: 140%;
+  left: 53.2%;
+}
+.next{
+  top:64%;
+}
+.fail,.success{
+  font-weight: bold;
+  font-size: 130%;
+  color: #ff0000;
+  text-align: center;
+  background-color: #f2a0a0;
+  margin:0 auto 1% auto;
+  width:45%;
+  border-radius: 30px;
+  padding: 0.85%;
+  position: absolute;
+  top: 88%;
+  left: 3%;
+}
+.success{
+  color: rgb(0,100,0);
+  background-color: rgba(50,230,50,0.3);
+}
+#upload,#cpass{
+  height:100vh;
+  width:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(0,0,0,.7);
+  opacity: 0;
+  visibility: hidden;
+}
+#upload:target,#cpass:target{
+  opacity: 1;
+  visibility: visible;
+}
+
+.upload_content,.cpass_content{
+  width:50%;
+  background-color: #FFF;
+  box-shadow: 0 2rem 4rem rgba(0,0,0,.2);
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding: 4%;
+  opacity: 1;
+}
+
+.upload_close{
+  font-size: 300%;
+  position: absolute;
+  top:2%;
+  right: 3%;
+  text-decoration: none;
+  outline:none;
+}
+.upload_close:hover{
+  color: #ff0000;
+}
+.photo{
+  position: absolute;
+  top:28%;
+  left:54%;
+}
+.camera,.keyword{
+    width:30px;
+    height: 30px;
+}
+.camera{
+  position: absolute;
+  top:15%;
+  left:15%;
+  width:29px;
+  height: 29px;
+}
+.camera_div{
+  border-radius: 50%;
+/*  background-color: #FFF;*/
+background-color: #dcfafa;
+  /*background-image: linear-gradient(to right bottom, #373B44, #4286f4);*/
+  width: 40px;
+  height: 40px;
+}
+.upload_content input,.cpass_content input{
+  padding: 2%;
+  margin: 2%;
+  cursor: pointer;
+  background-color: #CBE9E9;
+  font-size: 160%;
+  box-shadow: 0;
+  position: relative;
+  top:3%;
+  left:5%;
+}
+.remove{
+  display: block;
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+  font-size: 130%;
+}
+.upload_content img,.cpass_content img{
+  width:40px;
+  height:40px;
+  position: absolute;
+  top:2%;
+  left: 2%;
+}
+.upload_content .para,.cpass_content .para{
+  font-size: 150%;
+  position: absolute;
+  top:6%;
+  left: 10%;
+}
+.upload_content .success,.upload_content .fail{
+  position: relative;
+  left:10%;
+  top:-45px;
+}
+.cpass_content{
+  height: 400px
+}
+#cpass .fail,#cpass .success{
+  top:83%;
+}

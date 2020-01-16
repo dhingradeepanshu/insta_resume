@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav{
+	height: 10vh;
+	width: 100vw;
+	background: linear-gradient(#49708f, #293f50);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heading{
+	font-size: 3rem;
+	padding-left: 4rem;
+	color: white;
+}
+
+.logout{
+	font-size: 2rem;
+	padding-right: 4rem;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+
+.main{
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card{
+	height: 40vh;
+	width: 30vw;
+	box-shadow: 1px 1px 20px grey;
+	border-radius: 1rem; 
+	position: relative;
+}
+
+.head{
+	font-size: 2rem;
+	color: black;
+	padding: 2.2rem;
+	font-weight: 400;
+}
+
+.line{
+	border: 1.2px solid grey;
+}
+
+.button{
+	background: linear-gradient(#49708f, #293f50);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	color: white;
+	padding: 1rem 2rem;
+	height: 20%;
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-20%);
+	border-radius: 2rem;
+	text-transform: uppercase;
+}

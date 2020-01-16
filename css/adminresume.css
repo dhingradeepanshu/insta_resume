@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav{
+	height: 10vh;
+	width: 100vw;
+	/*background-image: linear-gradient(to left, #02AAB0, #00CDAC);*/
+	background: linear-gradient(#49708f, #293f50);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heading{
+	font-size: 3rem;
+	padding-left: 4rem;
+	color: white;
+}
+
+.logout{
+	font-size: 2rem;
+	padding-right: 4rem;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+
+.main{
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card{
+	height: 40vh;
+	width: 30vw;
+	box-shadow: 1px 1px 20px grey;
+	border-radius: 1rem; 
+	position: relative;
+}
+
+.head{
+	font-size: 2rem;
+	color: black;
+	padding: 2.2rem;
+	font-weight: 400;
+}
+
+.line{
+	border: 1.2px solid grey;
+}
+* {
+  box-sizing: border-box;
+}
+.example{
+	padding: 5%;
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+input::placeholder{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  /*background: #2196F3;*/
+  background: linear-gradient(#49708f, #293f50);
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  /*background: #0b7dda;*/
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.fail{
+	color:red;
+	font-size: 200%;
+	text-align: center;
+}
+.button{
+	background: linear-gradient(#49708f, #293f50);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	color: white;
+	padding: 1rem 2rem;
+	height: 15%;
+	width: 25%;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+	/*border-radius: 2rem;*/
+	text-transform: uppercase;
+}
